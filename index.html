@@ -5,6 +5,7 @@
         <meta charset="UTF-8"/>
     </head>
     <body>
+        <!--<button>Press Me</button>-->
         <script>
             //~~~~JAVASCRIPT HERE~~~~
             // let num1 = 23;
@@ -26,13 +27,158 @@
             // let actual = max - 13;
             // let percentage = actual / max;
             // let precisePercentage = percentage.toPrecision(4)
-            let string = 'The revolution will not be televised.'
-            string;
-            let badstring = string;
-            let bigmouth = 'I\'ve got no right to take my place...';
-            let one = 'Hello, ';
-            let two = 'how are you?';
-            let joined  = one + two;
-        </script>
+            // let string = 'The revolution will not be televised.'
+            // string;
+            // let badstring = string;
+            // let bigmouth = 'I\'ve got no right to take my place...';
+            // let one = 'Hello, ';
+            // let two = 'how are you?';
+            // let joined  = one + two;
+            // let multiple = one + one + one + one + two;
+            // multiple;
+            // let response = one + 'I am fine - ' + two;
+            // response;
+            
+            // const button = document.querySelector('button');
+
+            // button.onclick = function() {
+            //     let name  = prompt('What is your name?');
+            //     alert('Hello ' + name + ', nice to see you!');
+            // }
+            // let myString = '123';
+            // console.log(typeof myString);
+            // let myNum = Number(myString);
+            // console.log(typeof myNum);
+            // let song = "Fight the Youth";
+            // let longString = '12345';
+            // let lengthString = longString.length;
+            // let str = "Please locate where 'locate' occurs!";
+            // let pos = str.lastIndexOf("locate, 15");
+            // let rep = str.replace(/locate/g, "find");
+            // var fruits = ["Banana" , "Orange" , "Apple", "Kiwi"];
+            // fruits.splice(1,2); //fruits output will now only have Kiwi and Banana.
+            // var fruits = ["Banana" , "Orange" , "Apple" , "Kiwi"];
+            // fruits.sort();
+            //var d = new Date();
+            //console.log(d);
+            //var year = d.getFullYear();
+            //Boolean understanding
+            
+            //alert(2 > 1);   //true
+            //alert(2==1);    //false
+            //alert( 2!=1);   //true
+            
+            //let result = 5 > 4; // assigns the result
+            //alert (result); //true
+            
+            // console.log(5 > 4);
+            // console.log("apple" > "pineapple");
+            // console.log(undefined == null);
+            // console.log(undefined === null);
+            // console.log(null == "\n0\n");
+            // console.log(null === +"\n0\n");
+            // let timeOfDay = new Date();
+            // hour = timeOfDay.getHours();
+            // //hour = 19;
+            // if (hour < 18) {
+            //     greeting = "Good morning";
+            // } else  if (time < 20) {
+            //     greeting = "Good day"
+            // } else {
+            //     greeting = "Good evening";
+            //}
+            // console.log(greeting);
+            
+            //CONDITIONALS
+            //if (condition1) {
+            //  block of code to be executed if condition1 is true
+            //} else if (condition2) {
+            //  block of code to be executed if the condition1 is false and condition2 is true
+            //} else {
+            //  block of code to be executed if the condition1 is false and condition2 is false
+            //}
+
+            //SWITCH CASE
+            // let userInput = prompt("Please enter either Banana or Apple");
+            // let fruits = userInput.toUpperCase();
+            // switch(fruits) {
+            //     case "BANANA":
+            //         alert("Hello")
+            //         break;
+            //     case "APPLE":
+            //         alert("Welcome")
+            //         break;
+            //     default:
+            //         alert("fruits is undefined")
+            //         break;
+            //}
+            //   LOOPS
+            // var i;
+            // for (i = 0; i < 10; i++) {
+            //     console.log(i);
+            // }
+            // var fruits = ["Apple", "Banana", "Orange"]
+            // for (x of fruits) {
+            //     console.log(x);
+            // }
+            // var i = 0;
+            // while (i < 1000){
+            //     console.log(i);
+            //     if(i % 7 == 0 &&  i != 0){
+            //         console.log("zoop");
+            //     }
+            //     i++;
+            // }
+            
+            // result = a || b;
+            // alert( true || true );   // true
+            // alert( false || true );  // true
+            // alert( true || false );  // true
+            // alert( false || false ); // false
+            
+            // if (1 || 0) {
+            //     alert('truthy');
+            // }
+            // let hour = 9;
+
+            // if (hour < 10 || hour > 18) {
+            //     alert('The office is closed.');
+            // }
+
+            // hour = 12;
+            // let isWeekend = true;
+
+            // if (hour < 10 || hour > 18 || isWeekend) {
+            //     alert( 'The office is closed.' );
+            // }
+
+            // result = value1 || value2 || value3;
+            console.log( 1 || 0);
+            console.log(null || 1);
+            console.log(null || 0 || 1);
+            console.log(undefined || null || 0);
+
+            let firstName = false;
+            let lastName = false;
+            let nickName = "TristanDuke";
+
+            console.log( firstName || lastName || nickName || "Anonymous");
+            true || console.log("this won't print");
+            false || console.log("This will print");
+            let a = true;
+            let b = true;
+            result = a && b;
+            console.log(result);
+            let hour = 12;
+            let minute = 30;
+
+            if (hour ==12 && minute == 30) {
+                console.log( 'The time is 12:30');
+            }
+            if (1 && 0) {
+                console.log("This won't print to the screen becasue the result is false");
+            }
+            
+            </script>
     </body>
 </html>
