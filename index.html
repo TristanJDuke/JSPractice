@@ -178,19 +178,59 @@
             // if (1 && 0) {
             //     console.log("This won't print to the screen becasue the result is false");
             // }
+            let value1 = true;
+            let value2 = false;
+            let value3 = true;
             
-
-
-
-
-
-
-
-
-
-
-
+            result = value1 && value2 && value3;
             
+            console.log(result);
+            
+            // if the first operand is truthy,
+            // AND returns the second operand:
+            console.log( 1 && 0); // 0
+            console.log( 1 && 5); // 5
+
+            //if the first operand is falsy,
+            //AND returns it. The second operand is ignored
+            console.log( null && 5); //null
+            console.log( 0 && "no matter what" ); //0
+            
+            console.log( 1 && 2 && null && 3 ); //null
+            console.log( 1 && 2 && 3 ); // 3, the last one
+
+            let x = 1;
+            (x > 0) && console.log( 'Greater than zero!'); //DONT DO THIS
+
+            x = 1;
+
+            if (x > 0) console.log('Greater than zero!');
+            value = true;
+            result = !value;
+            console.log(result);
+            
+            console.log( !!'non-empty string'); //true
+            console.log(!!null); //true
+            
+            console.log( Boolean('non-empty string') ); //true
+            console.log( Boolean(null) ); //false
+
+
+            console.log( null || 2 || undefined ); //should produce 2 YAY!
+            console.log( console.log(1) || 2 || console.log(3) ); //should produce 1 and then 2 because it sees an undefined value and then a truthy value YAY!
+            console.log( 1 && null && 2); //should result the first false value ONLY which is null
+            console.log( null || 2 && 3 || 4); //should result 3 where it is the second AND value and takes precedence over the OR values and is executed first then in the new expression it is the first truthy value
+            
+            let age = 54;
+            if (age >= 14 && age <= 90) console.log('between 14 and 90');
+            if (! (age >= 14 && age <=90) ) console.log('between 14 and 90');
+            if (age < 14 || age > 90) console.log('between 14 and 90');
+
+            if ( -1 || 0) console.log('first');
+            if (-1 && 0) console.log( 'second' );
+            if (null || -1 && 1) console.log( 'third' );
+            
+    
             </script>
     </body>
 </html>
