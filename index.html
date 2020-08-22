@@ -1,236 +1,285 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Practice Page</title>
-        <meta charset="UTF-8"/>
-    </head>
-    <body>
-        <!--<button>Press Me</button>-->
-        <script>
-            //~~~~JAVASCRIPT HERE~~~~
-            // let num1 = 23;
-            // let num2 = 16;
-            // let sumNums = num1 + num2;
-            // console.log("Hello, World!")
-            // console.log(sumNums)
-            // console.log(5 + 1 + 2 + 3 + 4 + 5)
-            // console.log(((4 + 6 + 9) / 77).toPrecision(4))
-            
-            // let a = 10;
-            // console.log(a)
-            // console.log(9*a)
+  <head>
+    <title>Practice Page</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <!--!label for="weather">Select the weather type today: </!label>
+        <!select id="weather">
+            <!option value="">--Make a choice--</!option>
+            <!option value="sunny">Sunny</!option>
+            <!option value="rainy">Rainy</!option>
+            <!option value="snowing">Snowing</!option>
+            <!option value="overcast">Overcast</!option>
+        <!/select>
+        -->
 
-            // let b = 7*a;
-            // console.log(b)
-        
-            // const max = 57;
-            // let actual = max - 13;
-            // let percentage = actual / max;
-            // let precisePercentage = percentage.toPrecision(4)
-            // let string = 'The revolution will not be televised.'
-            // string;
-            // let badstring = string;
-            // let bigmouth = 'I\'ve got no right to take my place...';
-            // let one = 'Hello, ';
-            // let two = 'how are you?';
-            // let joined  = one + two;
-            // let multiple = one + one + one + one + two;
-            // multiple;
-            // let response = one + 'I am fine - ' + two;
-            // response;
-            
-            // const button = document.querySelector('button');
+    <p></p>
+    <!--<button>Press Me</button>-->
+    <script>
+      //~~~~JAVASCRIPT HERE~~~~
+      // let num1 = 23;
+      // let num2 = 16;
+      // let sumNums = num1 + num2;
+      // console.log("Hello, World!")
+      // console.log(sumNums)
+      // console.log(5 + 1 + 2 + 3 + 4 + 5)
+      // console.log(((4 + 6 + 9) / 77).toPrecision(4))
 
-            // button.onclick = function() {
-            //     let name  = prompt('What is your name?');
-            //     alert('Hello ' + name + ', nice to see you!');
-            // }
-            // let myString = '123';
-            // console.log(typeof myString);
-            // let myNum = Number(myString);
-            // console.log(typeof myNum);
-            // let song = "Fight the Youth";
-            // let longString = '12345';
-            // let lengthString = longString.length;
-            // let str = "Please locate where 'locate' occurs!";
-            // let pos = str.lastIndexOf("locate, 15");
-            // let rep = str.replace(/locate/g, "find");
-            // var fruits = ["Banana" , "Orange" , "Apple", "Kiwi"];
-            // fruits.splice(1,2); //fruits output will now only have Kiwi and Banana.
-            // var fruits = ["Banana" , "Orange" , "Apple" , "Kiwi"];
-            // fruits.sort();
-            //var d = new Date();
-            //console.log(d);
-            //var year = d.getFullYear();
-            //Boolean understanding
-            
-            //alert(2 > 1);   //true
-            //alert(2==1);    //false
-            //alert( 2!=1);   //true
-            
-            //let result = 5 > 4; // assigns the result
-            //alert (result); //true
-            
-            // console.log(5 > 4);
-            // console.log("apple" > "pineapple");
-            // console.log(undefined == null);
-            // console.log(undefined === null);
-            // console.log(null == "\n0\n");
-            // console.log(null === +"\n0\n");
-            // let timeOfDay = new Date();
-            // hour = timeOfDay.getHours();
-            // //hour = 19;
-            // if (hour < 18) {
-            //     greeting = "Good morning";
-            // } else  if (time < 20) {
-            //     greeting = "Good day"
-            // } else {
-            //     greeting = "Good evening";
-            //}
-            // console.log(greeting);
-            
-            //CONDITIONALS
-            //if (condition1) {
-            //  block of code to be executed if condition1 is true
-            //} else if (condition2) {
-            //  block of code to be executed if the condition1 is false and condition2 is true
-            //} else {
-            //  block of code to be executed if the condition1 is false and condition2 is false
-            //}
+      // let a = 10;
+      // console.log(a)
+      // console.log(9*a)
 
-            //SWITCH CASE
-            // let userInput = prompt("Please enter either Banana or Apple");
-            // let fruits = userInput.toUpperCase();
-            // switch(fruits) {
-            //     case "BANANA":
-            //         alert("Hello")
-            //         break;
-            //     case "APPLE":
-            //         alert("Welcome")
-            //         break;
-            //     default:
-            //         alert("fruits is undefined")
-            //         break;
-            //}
-            //   LOOPS
-            // var i;
-            // for (i = 0; i < 10; i++) {
-            //     console.log(i);
-            // }
-            // var fruits = ["Apple", "Banana", "Orange"]
-            // for (x of fruits) {
-            //     console.log(x);
-            // }
-            // var i = 0;
-            // while (i < 1000){
-            //     console.log(i);
-            //     if(i % 7 == 0 &&  i != 0){
-            //         console.log("zoop");
-            //     }
-            //     i++;
-            // }
-            
-            // result = a || b;
-            // alert( true || true );   // true
-            // alert( false || true );  // true
-            // alert( true || false );  // true
-            // alert( false || false ); // false
-            
-            // if (1 || 0) {
-            //     alert('truthy');
-            // }
-            // let hour = 9;
+      // let b = 7*a;
+      // console.log(b)
 
-            // if (hour < 10 || hour > 18) {
-            //     alert('The office is closed.');
-            // }
+      // const max = 57;
+      // let actual = max - 13;
+      // let percentage = actual / max;
+      // let precisePercentage = percentage.toPrecision(4)
+      // let string = 'The revolution will not be televised.'
+      // string;
+      // let badstring = string;
+      // let bigmouth = 'I\'ve got no right to take my place...';
+      // let one = 'Hello, ';
+      // let two = 'how are you?';
+      // let joined  = one + two;
+      // let multiple = one + one + one + one + two;
+      // multiple;
+      // let response = one + 'I am fine - ' + two;
+      // response;
 
-            // hour = 12;
-            // let isWeekend = true;
+      // const button = document.querySelector('button');
 
-            // if (hour < 10 || hour > 18 || isWeekend) {
-            //     alert( 'The office is closed.' );
-            // }
+      // button.onclick = function() {
+      //     let name  = prompt('What is your name?');
+      //     alert('Hello ' + name + ', nice to see you!');
+      // }
+      // let myString = '123';
+      // console.log(typeof myString);
+      // let myNum = Number(myString);
+      // console.log(typeof myNum);
+      // let song = "Fight the Youth";
+      // let longString = '12345';
+      // let lengthString = longString.length;
+      // let str = "Please locate where 'locate' occurs!";
+      // let pos = str.lastIndexOf("locate, 15");
+      // let rep = str.replace(/locate/g, "find");
+      // var fruits = ["Banana" , "Orange" , "Apple", "Kiwi"];
+      // fruits.splice(1,2); //fruits output will now only have Kiwi and Banana.
+      // var fruits = ["Banana" , "Orange" , "Apple" , "Kiwi"];
+      // fruits.sort();
+      //var d = new Date();
+      //console.log(d);
+      //var year = d.getFullYear();
+      //Boolean understanding
 
-            // result = value1 || value2 || value3;
-            // console.log( 1 || 0);
-            // console.log(null || 1);
-            // console.log(null || 0 || 1);
-            // console.log(undefined || null || 0);
+      //alert(2 > 1);   //true
+      //alert(2==1);    //false
+      //alert( 2!=1);   //true
 
-            // let firstName = false;
-            // let lastName = false;
-            // let nickName = "TristanDuke";
+      //let result = 5 > 4; // assigns the result
+      //alert (result); //true
 
-            // console.log( firstName || lastName || nickName || "Anonymous");
-            // true || console.log("this won't print");
-            // false || console.log("This will print");
-            // let a = true;
-            // let b = true;
-            // result = a && b;
-            // console.log(result);
-            // let hour = 12;
-            // let minute = 30;
+      // console.log(5 > 4);
+      // console.log("apple" > "pineapple");
+      // console.log(undefined == null);
+      // console.log(undefined === null);
+      // console.log(null == "\n0\n");
+      // console.log(null === +"\n0\n");
+      // let timeOfDay = new Date();
+      // hour = timeOfDay.getHours();
+      // //hour = 19;
+      // if (hour < 18) {
+      //     greeting = "Good morning";
+      // } else  if (time < 20) {
+      //     greeting = "Good day"
+      // } else {
+      //     greeting = "Good evening";
+      //}
+      // console.log(greeting);
 
-            // if (hour ==12 && minute == 30) {
-            //     console.log( 'The time is 12:30');
-            // }
-            // if (1 && 0) {
-            //     console.log("This won't print to the screen becasue the result is false");
-            // }
-            let value1 = true;
-            let value2 = false;
-            let value3 = true;
-            
-            result = value1 && value2 && value3;
-            
-            console.log(result);
-            
-            // if the first operand is truthy,
-            // AND returns the second operand:
-            console.log( 1 && 0); // 0
-            console.log( 1 && 5); // 5
+      //CONDITIONALS
+      //if (condition1) {
+      //  block of code to be executed if condition1 is true
+      //} else if (condition2) {
+      //  block of code to be executed if the condition1 is false and condition2 is true
+      //} else {
+      //  block of code to be executed if the condition1 is false and condition2 is false
+      //}
 
-            //if the first operand is falsy,
-            //AND returns it. The second operand is ignored
-            console.log( null && 5); //null
-            console.log( 0 && "no matter what" ); //0
-            
-            console.log( 1 && 2 && null && 3 ); //null
-            console.log( 1 && 2 && 3 ); // 3, the last one
+      //SWITCH CASE
+      // let userInput = prompt("Please enter either Banana or Apple");
+      // let fruits = userInput.toUpperCase();
+      // switch(fruits) {
+      //     case "BANANA":
+      //         alert("Hello")
+      //         break;
+      //     case "APPLE":
+      //         alert("Welcome")
+      //         break;
+      //     default:
+      //         alert("fruits is undefined")
+      //         break;
+      //}
+      //   LOOPS
+      // var i;
+      // for (i = 0; i < 10; i++) {
+      //     console.log(i);
+      // }
+      // var fruits = ["Apple", "Banana", "Orange"]
+      // for (x of fruits) {
+      //     console.log(x);
+      // }
+      // var i = 0;
+      // while (i < 1000){
+      //     console.log(i);
+      //     if(i % 7 == 0 &&  i != 0){
+      //         console.log("zoop");
+      //     }
+      //     i++;
+      // }
 
-            let x = 1;
-            (x > 0) && console.log( 'Greater than zero!'); //DONT DO THIS
+      // result = a || b;
+      // alert( true || true );   // true
+      // alert( false || true );  // true
+      // alert( true || false );  // true
+      // alert( false || false ); // false
 
-            x = 1;
+      // if (1 || 0) {
+      //     alert('truthy');
+      // }
+      // let hour = 9;
 
-            if (x > 0) console.log('Greater than zero!');
-            value = true;
-            result = !value;
-            console.log(result);
-            
-            console.log( !!'non-empty string'); //true
-            console.log(!!null); //true
-            
-            console.log( Boolean('non-empty string') ); //true
-            console.log( Boolean(null) ); //false
+      // if (hour < 10 || hour > 18) {
+      //     alert('The office is closed.');
+      // }
 
+      // hour = 12;
+      // let isWeekend = true;
 
-            console.log( null || 2 || undefined ); //should produce 2 YAY!
-            console.log( console.log(1) || 2 || console.log(3) ); //should produce 1 and then 2 because it sees an undefined value and then a truthy value YAY!
-            console.log( 1 && null && 2); //should result the first false value ONLY which is null
-            console.log( null || 2 && 3 || 4); //should result 3 where it is the second AND value and takes precedence over the OR values and is executed first then in the new expression it is the first truthy value
-            
-            let age = 54;
-            if (age >= 14 && age <= 90) console.log('between 14 and 90');
-            if (! (age >= 14 && age <=90) ) console.log('between 14 and 90');
-            if (age < 14 || age > 90) console.log('between 14 and 90');
+      // if (hour < 10 || hour > 18 || isWeekend) {
+      //     alert( 'The office is closed.' );
+      // }
 
-            if ( -1 || 0) console.log('first');
-            if (-1 && 0) console.log( 'second' );
-            if (null || -1 && 1) console.log( 'third' );
-            
-    
-            </script>
-    </body>
+      // result = value1 || value2 || value3;
+      // console.log( 1 || 0);
+      // console.log(null || 1);
+      // console.log(null || 0 || 1);
+      // console.log(undefined || null || 0);
+
+      // let firstName = false;
+      // let lastName = false;
+      // let nickName = "TristanDuke";
+
+      // console.log( firstName || lastName || nickName || "Anonymous");
+      // true || console.log("this won't print");
+      // false || console.log("This will print");
+      // let a = true;
+      // let b = true;
+      // result = a && b;
+      // console.log(result);
+      // let hour = 12;
+      // let minute = 30;
+
+      // if (hour ==12 && minute == 30) {
+      //     console.log( 'The time is 12:30');
+      // }
+      // if (1 && 0) {
+      //     console.log("This won't print to the screen becasue the result is false");
+      // }
+      // let value1 = true;
+      // let value2 = false;
+      // let value3 = true;
+
+      // result = value1 && value2 && value3;
+
+      // console.log(result);
+
+      // // if the first operand is truthy,
+      // // AND returns the second operand:
+      // console.log( 1 && 0); // 0
+      // console.log( 1 && 5); // 5
+
+      // //if the first operand is falsy,
+      // //AND returns it. The second operand is ignored
+      // console.log( null && 5); //null
+      // console.log( 0 && "no matter what" ); //0
+
+      // console.log( 1 && 2 && null && 3 ); //null
+      // console.log( 1 && 2 && 3 ); // 3, the last one
+
+      // let x = 1;
+      // (x > 0) && console.log( 'Greater than zero!'); //DONT DO THIS
+
+      // x = 1;
+
+      // if (x > 0) console.log('Greater than zero!');
+      // value = true;
+      // result = !value;
+      // console.log(result);
+
+      // console.log( !!'non-empty string'); //true
+      // console.log(!!null); //true
+
+      // console.log( Boolean('non-empty string') ); //true
+      // console.log( Boolean(null) ); //false
+
+      // console.log( null || 2 || undefined ); //should produce 2 YAY!
+      // console.log( console.log(1) || 2 || console.log(3) ); //should produce 1 and then 2 because it sees an undefined value and then a truthy value YAY!
+      // console.log( 1 && null && 2); //should result the first false value ONLY which is null
+      // console.log( null || 2 && 3 || 4); //should result 3 where it is the second AND value and takes precedence over the OR values and is executed first then in the new expression it is the first truthy value
+
+      // let age = 54;
+      // if (age >= 14 && age <= 90) console.log('between 14 and 90');
+      // if (! (age >= 14 && age <=90) ) console.log('between 14 and 90');
+      // if (age < 14 || age > 90) console.log('between 14 and 90');
+
+      // if ( -1 || 0) console.log('first');
+      // if (-1 && 0) console.log( 'second' );
+      // if (null || -1 && 1) console.log( 'third' );
+
+      //LOGICAL OPERATORS PROBLEM
+
+      // let passWord = "Master";
+      // let userName = "Admin"
+
+      // let login = prompt("Who's there?");
+      // if (login == false || login == null){
+      //     alert("Cancelled");
+      // } else if (login != userName){
+      //     alert("I don't know you!");
+      // } else {
+      //     let newPass = prompt("Password?");
+      //     if (newPass == false || newPass == null){
+      //     alert("Cancelled");
+      //     } else if (newPass !=passWord){
+      //         alert("new password")
+      //     } else {
+      //         alert("Welcome!");
+      //     }
+      // }
+      // const select = document.querySelector('select');
+      // const para = document.querySelector('p');
+
+      // select.addEventListener('change', setWeather);
+
+      // function setWeather() {
+      // const choice = select.value;
+
+      // if (choice === 'sunny') {
+      //     para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
+      // } else if (choice === 'rainy') {
+      //     para.textContent = 'Rain is falling outside; take a rain coat and an umbrella, and don\'t stay out for too long.';
+      // } else if (choice === 'snowing') {
+      //     para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';
+      // } else if (choice === 'overcast') {
+      //     para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
+      // } else {
+      //     para.textContent = '';
+      //     }
+      // }
+    </script>
+  </body>
 </html>
